@@ -1,4 +1,11 @@
 delimiter //
+drop procedure if exists GetWatchHistoryBySubscriber;
+create procedure GetWatchHistoryBySubscriber(IN sub_n int)
+begin 
+	declare watch int;
+    insert into temp select  n.subscriberName, s.title,s.genre, w.watchtime from (subscribers n left join watchhistory w on w.subscriberid = n.subscriberid) left join shows s on s.showid = w.showid where n.subscriberId=sub_n;	
+end;
+//
 
 drop procedure if exists SendWatchTimeReportAllSubscribers;
 create procedure  SendWatchTimeReportAllSubscribers()
