@@ -51,3 +51,5 @@ Question 5:
     - use mysql (Database)
     - mysql -u [username] -p[password] [database_name] < q5.sql
     - call SendWatchTimeReportAllSubscribers();
+
+To view this Assignment: https://github.com/siddardhakumar2003/SSD/tree/main/Lab-2_Assignment
