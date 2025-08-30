@@ -1,0 +1,78 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f8fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.todo-container {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.todo-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Input field */
+#task-input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin: 10px 5px 5px 5px;
+  font-size: 14px;
+}
+
+/* Add button */
+#add-task-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#add-task-btn:hover {
+  background-color: #45a049;
+}
+
+/* Task list */
+#task-list {
+  list-style: none;
+  padding: 10;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Individual task items */
+#task-list li {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Optional: completed task style */
+#task-list li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
