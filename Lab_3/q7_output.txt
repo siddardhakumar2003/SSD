@@ -1,0 +1,1 @@
+[{"purchaseMethod":"In store","avg_distinct_items":4.18},{"purchaseMethod":"Phone","avg_distinct_items":4.13},{"purchaseMethod":"Online","avg_distinct_items":4.09}]

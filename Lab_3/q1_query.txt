@@ -1,0 +1,1 @@
+print(JSON.stringify(db.sales.insertOne({orderId:'LAB_2025201061',saleDate:new Date(),items : [{name :"Siddardha",tags:["lab","custom"],price :10.0,quantity:1}],storeLocation:"Training",customer:{email:"kspsvlnsiddardha.k@students.iiit.ac.in",age:18,satisfaction:4} ,couponUsed:false, purchaseMethood:"Online"})));

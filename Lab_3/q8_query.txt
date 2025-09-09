@@ -1,0 +1,1 @@
+print(JSON.stringify(db.sales.aggregate([{ $unwind: "$items" },{ $unwind: "$items.tags" },{ $group: { _id: null, tags: { $addToSet: "$items.tags" } } },{ $project: { _id: 0, tags: { $sortArray: { input: "$tags", sortBy: 1 } } } }]).toArray()));

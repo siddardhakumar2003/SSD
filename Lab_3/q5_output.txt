@@ -1,0 +1,1 @@
+[{ storeLocation: 'Denver', revenue: 2921009.92 },{ storeLocation: 'Seattle', revenue: 2255947.69 },{ storeLocation: 'London', revenue: 1583066.79 },{ storeLocation: 'Austin', revenue: 1445603.11 },{ storeLocation: 'New York', revenue: 1016059.59 }]
