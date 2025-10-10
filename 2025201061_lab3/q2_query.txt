@@ -1,0 +1,1 @@
+print(JSON.stringify(db.sales_work.find({ orderId:"LAB_2025201061" },{ _id : 0,orderId : 1,storeLocation : 1,purchaseMethod : 1 ,item0 : { $arrayElemAt:["$items.name",0] }}).toArray()));

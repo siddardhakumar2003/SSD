@@ -1,0 +1,2 @@
+[{"n":369,"purchaseMethod":"Phone","avg_satisfaction":3.83},{"n":1737,"purchaseMethod":"In store","avg_satisfaction":3.78},{"n":962,"purchaseMethod":"Online","avg_satisfaction":3.77}]
+

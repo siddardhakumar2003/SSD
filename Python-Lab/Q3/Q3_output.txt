@@ -1,0 +1,19 @@
+How many numbers do you want to memorize (between 3 and 5)? 4
+
+Memorize these numbers:
+3
+8
+8
+2
+
+Press Enter when you are ready to recall...
+
+
+
+Now, enter the numbers in the same order:
+Number 1: 3
+Number 2: 9
+Number 3: 8
+Number 4: 2
+
+Oops! You remembered 3 out of 4 correctly.

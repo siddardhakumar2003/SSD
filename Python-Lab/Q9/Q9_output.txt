@@ -1,0 +1,6 @@
+Enter 5 characters: A1B2C
+Final Score: 60
+
+
+Enter 5 characters: X3Y4Z
+Final Score: 146

@@ -1,0 +1,1 @@
+print(JSON.stringify(db.sales.aggregate([{ $unwind: "$items" },{ $project: { storeLocation: 1, revenue: { $multiply: ["$items.price", "$items.quantity"] } } },{ $group: { _id: "$storeLocation", revenue: { $sum: "$revenue" } } },{ $project: { _id: 0, storeLocation: "$_id", revenue: 1 } },{ $sort: { revenue: -1, storeLocation: 1 } },{ $limit: 5 }]).toArray()));
