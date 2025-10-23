@@ -1,0 +1,10 @@
+--- SCRABBLED STRING ---
+AUTOMNOITA
+--- SORTED COURSES ---
+[('CS101', 50), ('EE301', 45), ('MA202', 35), ('PY451', 30)]
+--- SET OPERATIONS ---
+Intersection: {'Aditi', 'Rohan', 'Priya'}
+Union: {'Vikram', 'Sameer', 'Kunal', 'Neha', 'Priya', 'Aditi', 'Rohan'}
+Difference: {'Vikram', 'Kunal'}
+--- STUDENT DICTIONARY ---
+{'Kunal': ['Robotics'], 'Aditi': ['AI', 'Robotics'], 'Rohan': ['AI', 'Robotics'], 'Priya': ['AI', 'Robotics'], 'Vikram': ['Robotics'], 'Sameer': ['AI'], 'Neha': ['AI']}
