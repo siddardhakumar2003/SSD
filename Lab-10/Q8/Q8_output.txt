@@ -1,0 +1,12 @@
+Enter chamber configuration (8 characters):  CTECTTCE 
+=== Crystal Cavern Explorer ===
+Chamber 1 (C): Found crystal! +30 points (Bonus applied!)
+Chamber 2 (T): Hit trap! -10 health
+Chamber 3 (E): Empty chamber, resting... +5 health
+Chamber 4 (C): Found crystal! +15 points
+Chamber 5 (T): Hit trap! -10 health
+Chamber 6 (T): Hit trap! -20 health
+Chamber 7 (C): Found crystal! +60 points (Bonus applied!)
+Chamber 8 (E): Safe exit!
+Final Status: Health=70, Crystals=3, Crystal Points=105
+Final Score: 140
