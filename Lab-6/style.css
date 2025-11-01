@@ -1,0 +1,101 @@
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+form {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74,144,226,0.2);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: white;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+li.dragging {
+  opacity: 0.5;
+  transform: scale(1.02);
+}
+
+li button {
+  background: #ff4d4d;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+li button:hover {
+  background: #e63939;
+}
