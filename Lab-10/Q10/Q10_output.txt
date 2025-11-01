@@ -1,0 +1,10 @@
+Enter number of rounds (2-5): 3
+Round 1 - Enter 4 characters:  A2B3
+Round 2 - Enter 4 characters:  X1Y4
+Round 3 - Enter 4 characters:  M5N6
+Processing Results:
+Round 1 Score: 59
+Round 2 Score: 150
+Round 3 Score: 101
+Above Average Rounds: 1
+Final Score: 279
