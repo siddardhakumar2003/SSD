@@ -1,0 +1,52 @@
+On branch manhattan
+You are currently reverting commit 7699797.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    point.h
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+	deleted by them: distance.c
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   subtask2.3.1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	subtask2.3.2.txt
+
+
+
+commit 0d343028849947b781ef3d83d49689980f4b0bac (HEAD -> manhattan)
+Author: kspsvln <sidhardhakumar2003@yahoo.com>
+Date:   Thu Aug 7 17:55:52 2025 +0530
+
+    final
+
+commit 135012299310a0f473a6bb9d7543b437de4da879
+Author: kspsvln <sidhardhakumar2003@yahoo.com>
+Date:   Thu Aug 7 17:48:34 2025 +0530
+
+    Revert "Assignment1"
+    
+    This reverts commit 76997971a5aea52aef11b8abeb99268a45d2bac4.
+
+commit 6ba5d9ba5456c57462c8f38116e2e96ece0b5592
+Author: kspsvln <sidhardhakumar2003@yahoo.com>
+Date:   Thu Aug 7 17:37:49 2025 +0530
+
+    Manhattan
+
+commit 76997971a5aea52aef11b8abeb99268a45d2bac4 (master)
+Author: kspsvln <sidhardhakumar2003@yahoo.com>
+Date:   Thu Aug 7 17:18:54 2025 +0530
+
+    Assignment1
+

@@ -1,0 +1,11 @@
+diff --git a/distance.c b/distance.c
+index f24a561..3bb9d47 100644
+--- a/distance.c
++++ b/distance.c
+@@ -3,5 +3,5 @@
+ #include<math.h>
+ 
+ int distance(Point p1,Point p2){
+-	return sqrt(pow(p2.x-p1.x,2)+pow(p2.y-p1.y,2));
++	return abs(p1.x-p2.x)+abs(p1.y-p2.y);
+ }

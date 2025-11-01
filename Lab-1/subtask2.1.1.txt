@@ -1,0 +1,1 @@
+Initialized existing Git repository in /home/kspsvln/SSD/dist/.git/
