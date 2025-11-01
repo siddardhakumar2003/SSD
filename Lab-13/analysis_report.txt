@@ -1,0 +1,104 @@
+==================================================
+Pandas Lab Activity - Analysis Report
+==================================================
+
+--- PART 1: Initial Data Inspection ---
+Original Data Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 27 entries, 0 to 26
+Data columns (total 5 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   EmployeeID  27 non-null     int64  
+ 1   Name        27 non-null     object 
+ 2   Department  27 non-null     object 
+ 3   Hire Date   24 non-null     object 
+ 4   Salary      22 non-null     float64
+dtypes: float64(1), int64(1), object(3)
+memory usage: 1.2+ KB
+
+Statistical Summary (Original Data):
+         EmployeeID          Name   Department   Hire Date        Salary
+count     27.000000            27           27          24     22.000000
+unique          NaN            26            5          23           NaN
+top             NaN  Heidi Wilson  Engineering  2020-10-09           NaN
+freq            NaN             2            9           2           NaN
+mean    1013.111111           NaN          NaN         NaN  70519.681818
+std        7.767453           NaN          NaN         NaN  12725.929445
+min     1001.000000           NaN          NaN         NaN  51098.000000
+25%     1006.500000           NaN          NaN         NaN  58991.250000
+50%     1013.000000           NaN          NaN         NaN  69998.500000
+75%     1019.500000           NaN          NaN         NaN  78480.500000
+max     1026.000000           NaN          NaN         NaN  95000.000000
+
+--- PART 2: Cleaned Data Info ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 23 entries, 0 to 22
+Data columns (total 5 columns):
+ #   Column      Non-Null Count  Dtype         
+---  ------      --------------  -----         
+ 0   EmployeeID  23 non-null     int64         
+ 1   Name        23 non-null     object        
+ 2   Department  23 non-null     object        
+ 3   Hire Date   23 non-null     datetime64[ns]
+ 4   Salary      23 non-null     float64       
+dtypes: datetime64[ns](1), float64(1), int64(1), object(2)
+memory usage: 1.0+ KB
+
+
+--- PART 3: Data Selection Examples ---
+Engineering Employees:
+    EmployeeID             Name   Department  Hire Date        Salary
+1         1002  Sophia Martinez  Engineering 2023-07-11  65187.000000
+2         1003     Heidi Wilson  Engineering 2020-10-09  55464.000000
+3         1005   Benjamin White  Engineering 2019-04-28  88136.000000
+10        1012   Alice Gonzalez  Engineering 2021-01-12  71236.619048
+13        1015   Heidi Anderson  Engineering 2021-12-13  78404.000000
+16        1018     Frank Garcia  Engineering 2022-02-21  71236.619048
+18        1020       Bob Martin  Engineering 2023-09-25  70874.000000
+22        1026    Zane Anderson  Engineering 2019-03-15  95000.000000
+
+High Earners (>$80k):
+    EmployeeID            Name   Department  Hire Date   Salary
+3         1005  Benjamin White  Engineering 2019-04-28  88136.0
+14        1016     Heidi Smith    Marketing 2020-01-20  80653.0
+22        1026   Zane Anderson  Engineering 2019-03-15  95000.0
+
+Names and Salaries:
+              Name   Salary
+0       Judy Perez  51098.0
+1  Sophia Martinez  65187.0
+2     Heidi Wilson  55464.0
+3   Benjamin White  88136.0
+4     David Martin  78506.0
+
+--- PART 4: Data Transformation Example ---
+Data with 'Years of Service' and 'Bonus Tier':
+   EmployeeID             Name   Department  Hire Date   Salary  Years of Service Bonus Tier
+0        1001       Judy Perez      Finance 2022-04-25  51098.0                 3        Low
+1        1002  Sophia Martinez  Engineering 2023-07-11  65187.0                 2     Medium
+2        1003     Heidi Wilson  Engineering 2020-10-09  55464.0                 5        Low
+3        1005   Benjamin White  Engineering 2019-04-28  88136.0                 6       High
+4        1006     David Martin      Finance 2021-06-04  78506.0                 4       High
+
+--- PART 5: Data Aggregation ---
+Average Salary by Department:
+Department
+Engineering    74442.279762
+Finance        66858.123810
+HR             70458.123810
+Marketing      75944.809524
+Sales          65331.333333
+
+Comprehensive Department Stats:
+              Mean Salary  Max Years of Service  Employee Count
+Department                                                     
+Engineering  74442.279762                     6               8
+Finance      66858.123810                     7               5
+HR           70458.123810                     6               5
+Marketing    75944.809524                     5               2
+Sales        65331.333333                     6               3
+
+==================================================
+Report Generation Complete.
+==================================================
