@@ -1,0 +1,6 @@
+Enter a positive integer: 5
+1
+2
+Three
+4
+Five
