@@ -1,0 +1,16 @@
+Please enter the starting number for the range: 100
+Please enter the ending number for the range: 500
+Searching for mystical numbers... 
+------------------------------
+Mystical Number: 124 -> Digit Sum: 7
+Mystical Number: 128 -> Digit Sum: 11
+Mystical Number: 146 -> Digit Sum: 11
+Mystical Number: 148 -> Digit Sum: 13
+Mystical Number: 236 -> Digit Sum: 11
+Mystical Number: 238 -> Digit Sum: 13
+Mystical Number: 256 -> Digit Sum: 13
+Mystical Number: 278 -> Digit Sum: 17
+Mystical Number: 346 -> Digit Sum: 13
+Mystical Number: 368 -> Digit Sum: 17
+Mystical Number: 458 -> Digit Sum: 17
+Mystical Number: 478 -> Digit Sum: 19
