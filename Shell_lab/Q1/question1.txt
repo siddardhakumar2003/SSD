@@ -1,0 +1,2 @@
+You are given 3 log files in logs folder, you have to get the success and failure of each user in separate lines in the order of Aaditya, Rohan and Sneha.
+Write your code in log.sh and execute test.sh to test if you got the right output
