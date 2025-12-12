@@ -1,123 +1,204 @@
-<!doctype html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
-  <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kspsvln Siddardha Kumar Kavuri - Resume</title>
+<style>
     body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background-color: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
     }
-
-    h1, h2, h3, h4 {
-      margin-bottom: 5px;
-      color: #2c3e50;
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 25px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
-
+    h1, h2, h3 {
+        color: #003366;
+        margin-bottom: 5px;
+    }
     h1 {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 2em;
-      color: #1a1a1a;
+        font-size: 28px;
     }
-
-    img {
-      display: block;
-      margin: 15px auto;
-      border-radius: 50%;
-      border: 3px solid #2c3e50;
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
+    h2 {
+        font-size: 22px;
+        border-bottom: 2px solid #003366;
+        padding-bottom: 3px;
     }
-
-    div {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 20px 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    h3 {
+        font-size: 18px;
+        margin-top: 15px;
     }
-
-    ol {
-      list-style: none;
-      padding: 0;
+    .contact, .social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 15px;
     }
-
-    li {
-      margin-bottom: 30px;
+    .social a {
+        text-decoration: none;
+        color: #003366;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
     }
-
-    hr {
-      border: none;
-      border-top: 1px solid #ddd;
-      margin: 20px 0;
+    .social img {
+        height: 20px;
+        width: 20px;
     }
-
-    p {
-      text-align: justify;
+    section {
+        margin-top: 20px;
     }
-
+    .section-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #003366;
+        font-size: 20px;
+    }
+    .cv-item {
+        margin-bottom: 15px;
+    }
+    .cv-item h4 {
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        color: #003366;
+    }
+    .cv-item p {
+        margin: 0;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .technologies {
+        font-weight: bold;
+        margin-top: 3px;
+    }
     ul {
-      margin: 0;
-      padding-left: 20px;
+        margin: 0;
+        padding-left: 20px;
     }
-
-    ul li {
-      margin: 8px 0;
-    }
-
-    /* Hover effect */
-    li:hover {
-      background-color: #f0f4f8;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <div>
+<div class="container">
+    <!-- Name & Contact -->
     <h1>Kspsvln Siddardha Kumar Kavuri</h1>
-    <img src="photo.jpg" alt="Profile Photo">
-    <ol>
-      <li>
-        <h2>About Me</h2>
-        <p>
-          An organized and motivated individual, eager to utilize time
-          management and organizational skills across diverse settings. Seeking
-          entry-level opportunities to enhance abilities while contributing to
-          company growth. Motivated student eager to apply classroom
-          knowledge to real-world experiences, with a strong willingness to learn
-          and contribute. Effective communicator with a collaborative mindset,
-          ready to bring fresh perspectives and a strong work ethic to any team.
-        </p>
-      </li>
-      <hr>
-      <li>
-        <h2>Education</h2>
-        <h3>International Institute of Information Technology</h3>
-        <h4>Hyderabad | Jul 2025 - Present</h4>
-        <p>Master of Technology - Computer Science and Engineering (GPA: 9.12)</p>
+    <div class="contact">
+        <p>📞 +91 8639127753</p>
+        <p>✉️ kkspsvlnsk@gmail.com</p>
+    </div>
 
-        <h3>University College of Engineering, Osmania University</h3>
-        <h4>Sept 2021 - Jun 2025</h4>
-        <p>Bachelor of Engineering - Computer Science and Engineering (GPA: 9.12)</p>
-      </li>
-      <hr>
-      <li>
-        <h2>Skills</h2>
+    <!-- Social -->
+    <div class="social">
+        <a href="https://www.linkedin.com/in/kspsvln-siddardha-kumar-kavuri-8b8343328/">
+            <img src="linkedin-logo.jpg" alt="LinkedIn">LinkedIn
+        </a>
+        <a href="https://github.com/siddardhakumar2003">
+            <img src="github-logo.png" alt="GitHub">GitHub
+        </a>
+        <a href="https://leetcode.com/u/sidhardhakumar2003/">
+            <img src="leetcode.png" alt="LeetCode">LeetCode
+        </a>
+    </div>
+
+    <!-- Education -->
+    <section>
+        <div class="section-title">Education</div>
+        <div class="cv-item">
+            <h4>Master of Technology, Computer Science and Engineering</h4>
+            <p>International Institute of Information Technology, Hyderabad | Jul 2025 – Present | GPA: 9.12</p>
+        </div>
+        <div class="cv-item">
+            <h4>Bachelor of Engineering, Computer Science and Engineering</h4>
+            <p>University College of Engineering, Osmania University | Sept 2021 – Jun 2025 | GPA: 9.12</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <div class="section-title">Skills</div>
+        <div class="cv-item">
+            <p><strong>Languages:</strong> C, C++, Java, JavaScript, SQL, Python, HTML, CSS</p>
+            <p><strong>Tools:</strong> Git, MySQL, SQLite, Oracle, Node.js, React.js, MongoDB</p>
+            <p><strong>Concepts:</strong> Deep Learning</p>
+        </div>
+    </section>
+
+    <!-- Honors & Achievements -->
+    <section>
+        <div class="section-title">Honors & Achievements</div>
         <ul>
-          <li><strong>Languages:</strong> C, C++, Java, JavaScript, SQL, Python, HTML, CSS</li>
-          <li><strong>Tools:</strong> Git, MySQL, SQLite, Oracle, Node.js, React.js, MongoDB</li>
-          <li><strong>Concept:</strong> Deep Learning</li>
+            <li>Secured <strong>AIR 932</strong> in GATE CS '25 among 1.8 lakh candidates</li>
+            <li>Secured <strong>AIR 43</strong> in PGEE '25 conducted by IIIT Hyderabad</li>
+            <li>Secured <strong>Rank 1312</strong> in TS EAMCET 2021 and 97.8 percentile in JEE Mains 2021</li>
         </ul>
-      </li>
-    </ol>
-  </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <div class="section-title">Projects</div>
+
+        <div class="cv-item">
+            <h4>Disaster Aid <a href="https://github.com/siddardhakumar2003/Disaster_Aid"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Real-time crisis relief coordination platform connecting disaster victims with NGOs and authorities. Supports automatic SoS detection in multiple languages, request clustering, priority-based NGO matching, real-time updates via Socket.IO, geospatial queries, media evidence management, and secure multi-role access.</p>
+            <p class="technologies">Technologies: MERN Stack, Socket.IO, React.js, Node.js, Express.js, MongoDB</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>Vidya Vichar <a href="https://github.com/siddardhakumar2003/Vidhya_Vichar"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Real-time classroom Q&A sticky board allowing students to post questions as sticky notes during lectures, with instructors managing, filtering, and marking them live. Secure access code system ensures controlled participation, and all data is persistently stored for session continuity and analytics.</p>
+            <p class="technologies">Technologies: MERN Stack, Socket.io, React.js, Node.js, Express.js, MongoDB</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>P2P Distributed File Sharing System <a href="https://github.com/siddardhakumar2003/AOS/tree/main/2025201061_A3"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Developed a peer-to-peer distributed file sharing system with tracker-client architecture. Enabled secure user authentication, group-based file sharing, concurrent multi-peer downloads, SHA1 integrity verification, and tracker synchronization for redundancy. Implemented thread-safe network communication, piece-wise file distribution, and real-time download status tracking.</p>
+            <p class="technologies">Technologies: C++, POSIX TCP sockets, Multithreading, SHA1 hashing, Client-Server Networking</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>POSIX Shell Implementation <a href="https://github.com/siddardhakumar2003/AOS/tree/main/2025201061_Assignment2"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Developed a modular interactive shell in C++ supporting semi-colon separated commands, background and foreground processes, piping, and I/O redirection. Implemented built-ins (cd, echo, pwd, ls, pinfo, history), command autocomplete, and process management with proper signal handling and error checking.</p>
+            <p class="technologies">Technologies: C++, POSIX APIs, fork(), exec(), pipe(), strtok(), signal handling</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>Image Restoration <a href="https://github.com/siddardhakumar2003/Image_Restoration"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Developed an image restoration pipeline combining DGUNet for deblurring and sparse transform-based low-light enhancement. Achieved high PSNR/SSIM, enabled batch processing.</p>
+            <p class="technologies">Technologies: Python, Deep Learning, OpenCV</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>Image Forgery Detection <a href="https://github.com/siddardhakumar2003/Image-Forgery-Detection"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Designed a 9-layer CNN trained on CASIA 2.0 to detect splicing, copy-move, and removal forgeries. CNN features fed to SVM for classification.</p>
+            <p class="technologies">Technologies: Python, OpenCV</p>
+        </div>
+
+        <div class="cv-item">
+            <h4>Answer Sheet Evaluation Engine <a href="https://github.com/siddardhakumar2003/answer-evaluation-engine"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
+            <p>Developed a deep-learning based semantic answer evaluation engine using NLP libraries (NLTK, spaCy, Transformers). Built web app using MERN stack.</p>
+            <p class="technologies">Technologies: MERN, Python, NLP</p>
+        </div>
+
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <div class="section-title">Certifications</div>
+        <ul>
+            <li>Learn Java Programming (Udemy)</li>
+            <li>The Complete Oracle SQL Bootcamp (Udemy)</li>
+            <li>The Complete 2023 Web Development Boot Camp (Udemy)</li>
+            <li>Learn C++ Programming - Deep Drive C++ (Udemy)</li>
+        </ul>
+    </section>
+
+</div>
 </body>
 </html>
