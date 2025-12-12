@@ -31,6 +31,39 @@
         border-bottom: 2px solid #003366;
         padding-bottom: 3px;
     }
+    .centered-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .centered-header .contact {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .centered-header .social {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .centered-header .social a {
+        text-decoration: none;
+        color: #003366;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .centered-header .social img {
+        height: 20px;
+        width: 20px;
+    }
     h3 {
         font-size: 18px;
         margin-top: 15px;
@@ -88,13 +121,13 @@
 <body>
 <div class="container">
     <!-- Name & Contact -->
+    <!-- Centered Header -->
+<div class="centered-header">
     <h1>Kspsvln Siddardha Kumar Kavuri</h1>
     <div class="contact">
         <p>📞 +91 8639127753</p>
         <p>✉️ kkspsvlnsk@gmail.com</p>
     </div>
-
-    <!-- Social -->
     <div class="social">
         <a href="https://www.linkedin.com/in/kspsvln-siddardha-kumar-kavuri-8b8343328/">
             <img src="linkedin-logo.jpg" alt="LinkedIn">LinkedIn
@@ -106,10 +139,12 @@
             <img src="leetcode.png" alt="LeetCode">LeetCode
         </a>
     </div>
+</div>
 
+    <hr>
     <!-- Education -->
     <section>
-        <div class="section-title">Education</div>
+        <div class="section-title">Education</div><br/>
         <div class="cv-item">
             <h4>Master of Technology, Computer Science and Engineering</h4>
             <p>International Institute of Information Technology, Hyderabad | Jul 2025 – Present | GPA: 9.12</p>
@@ -119,30 +154,30 @@
             <p>University College of Engineering, Osmania University | Sept 2021 – Jun 2025 | GPA: 9.12</p>
         </div>
     </section>
-
+    <hr>
     <!-- Skills -->
     <section>
-        <div class="section-title">Skills</div>
+        <div class="section-title">Skills</div><br/>
         <div class="cv-item">
             <p><strong>Languages:</strong> C, C++, Java, JavaScript, SQL, Python, HTML, CSS</p>
             <p><strong>Tools:</strong> Git, MySQL, SQLite, Oracle, Node.js, React.js, MongoDB</p>
             <p><strong>Concepts:</strong> Deep Learning</p>
         </div>
     </section>
-
+    <hr>
     <!-- Honors & Achievements -->
     <section>
-        <div class="section-title">Honors & Achievements</div>
+        <div class="section-title">Honors & Achievements</div><br/>
         <ul>
             <li>Secured <strong>AIR 932</strong> in GATE CS '25 among 1.8 lakh candidates</li>
             <li>Secured <strong>AIR 43</strong> in PGEE '25 conducted by IIIT Hyderabad</li>
             <li>Secured <strong>Rank 1312</strong> in TS EAMCET 2021 and 97.8 percentile in JEE Mains 2021</li>
         </ul>
     </section>
-
+    <hr>
     <!-- Projects -->
     <section>
-        <div class="section-title">Projects</div>
+        <div class="section-title">Projects</div><br/>
 
         <div class="cv-item">
             <h4>Disaster Aid <a href="https://github.com/siddardhakumar2003/Disaster_Aid"><img src="github-logo.png" alt="GitHub" style="height:16px;"></a></h4>
@@ -187,10 +222,10 @@
         </div>
 
     </section>
-
+    <hr>
     <!-- Certifications -->
     <section>
-        <div class="section-title">Certifications</div>
+        <div class="section-title">Certifications</div><br/>
         <ul>
             <li>Learn Java Programming (Udemy)</li>
             <li>The Complete Oracle SQL Bootcamp (Udemy)</li>
