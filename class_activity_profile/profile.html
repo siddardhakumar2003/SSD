@@ -19,7 +19,8 @@ body {
     margin: auto;
     padding: 20px;
 }
-/* Header */
+
+/* ---------------- HEADER ---------------- */
 .name {
     text-align: center;
     font-size: 28px;
@@ -27,12 +28,11 @@ body {
 }
 
 .contact {
-    display: flex;
+    display: flex;              /* 🔥 1-row layout */
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: nowrap; 
-    text-align: center;
+    flex-wrap: nowrap;
     font-size: 14px;
     margin-top: 5px;
 }
@@ -43,7 +43,16 @@ body {
     margin: 0 10px;
 }
 
-/* Section */
+/* Icons (FIXED SIZE + ALIGNMENT) */
+.social img,
+.contact img,
+.project-title img {
+    height: 0.9em;              /* 🔥 consistent with text */
+    width: auto;
+    vertical-align: middle;
+}
+
+/* ---------------- SECTIONS ---------------- */
 .section {
     margin-top: 18px;
 }
@@ -56,7 +65,7 @@ body {
     margin-bottom: 8px;
 }
 
-/* Entries */
+/* ---------------- ENTRIES ---------------- */
 .entry {
     margin-bottom: 10px;
 }
@@ -74,22 +83,16 @@ body {
     font-size: 13px;
 }
 
-/* Projects */
+/* ---------------- PROJECTS ---------------- */
 .project-title {
     font-weight: bold;
-}
-
-.project-title img {
-    height: 14px;
-    vertical-align: middle;
-    margin-left: 5px;
 }
 
 .tech {
     font-size: 13px;
 }
 
-/* Lists */
+/* ---------------- LISTS ---------------- */
 ul {
     margin: 5px 0 0 20px;
     padding: 0;
@@ -97,12 +100,6 @@ ul {
 
 li {
     margin-bottom: 5px;
-}
-
-.social img {
-    height: 0.9em;      /* scales with text */
-    width: auto;
-    vertical-align: middle;
 }
 </style>
 
